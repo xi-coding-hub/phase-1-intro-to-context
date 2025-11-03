@@ -19,4 +19,7 @@ function createEmployeeRecord (arr) {
     return employeeRecord
 }
 
+function createEmployeeRecords (){
+    
+}
 createEmployeeRecord(employees)
