@@ -6,10 +6,15 @@ function createEmployeeRecord (arr) {
     console.log(firstNm)
     let familyNm = arr[1]
     let titleData = arr[2]
+    let payRate = arr[3]
+
     let employeeRecord = {
        firstName: firstNm,
        familyName: familyNm,
-       title:  titleData
+       title:  titleData,
+       payPerHour: payRate,
+       timeInEvents: [],
+       timeOutEvents:[]
     }
     return employeeRecord
 }
